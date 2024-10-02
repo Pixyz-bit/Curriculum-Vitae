@@ -1,0 +1,146 @@
+*{ /*Checked*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{ /*Checked*/
+    background: #00b6c4;
+}
+
+.page{ /*Checked*/
+    background: #f5f5f5;
+    max-width: 1100px;
+    width: 1100px;
+    margin: 60px auto;
+    height: 1250px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.main-content{
+    display: flex;
+    height: 1210px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header{ /*Checked*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    max-height: 350px;
+    justify-content: center;
+}
+
+.header h1{
+    margin-bottom: 10px;
+}
+
+.header h2{
+    color: #0061cf;
+}
+.profile{ /*Checked*/
+    width: 220px;
+    border-color: deepskyblue;
+    border-width: 15px;
+    border-style: groove;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+#container{ /*Checked*/
+    display: flex;
+    justify-content: space-around; /*main axis: horizontal*/
+    align-items: stretch; /*vertical*/
+    max-height: 880px;
+}
+
+hr{
+    width: 480px;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*main: axis: vertical*/
+    gap: 50px;
+    max-width: 500px;
+    max-height: 880px;
+    width: 500px;
+}
+
+#information-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#information-box p{
+    margin-bottom: 10px;
+}
+
+.address{
+    display: flex;
+    gap:5px
+}
+.school{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*main: axis: vertical*/
+    gap: 40px;
+    max-width: 500px;
+    max-height: 880px;
+    width: 500px;
+}
+
+#objective-box p{
+    text-align: justify;
+    margin: 0px 30px;
+    line-height: 20px;
+}
+
+li{
+    margin-bottom: 4px;
+}
+ul{/*Checked*/
+    margin-left: 50px;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 10px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.img{
+    max-width: 30px;
+}
+
+.school-img{
+    max-height: 60px;
+}
+
+p{
+    margin: 0 0px;
+    padding: 0 0;
+}
+
+
+
